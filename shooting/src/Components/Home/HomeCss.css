@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    font-family: 'Poppins',sans-serif;
+    background: url("C:\Users\Varshaa\OneDrive - M2P Solutions Private Limited\Desktop\SpringBoot\Shooting(Repo)\shooting\src\Images\shooting bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.shootingHeading{
+    color: white;
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 5rem;
+}
+
+.charracterImages{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 10px 15px rgba(19, 14, 14, 0.05);
+}
+
+img{
+    width: 350px;
+    height: 350px;
+}
+
+img#villain{
+    width: 200px;
+}
+
+#gameButton{
+    text-decoration: none;
+    
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background: #693333;
+    margin-top: 20px;
+    transition: transform 0.5s ease-in;
+}
+
+#gameButton:hover{
+    transform: scale(1.1);
+    border: 1px dashed #693333;
+    color: #693333;
+    background-color: white;
+    border: 1px dashed #cab0b0;
+    border: none;
+}
